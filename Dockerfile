@@ -1,6 +1,6 @@
-ARG GITLAB_RUNNER_VERSION="15.5.0"
+ARG GITLAB_RUNNER_VERSION="v15.5.0"
 
-FROM gitlab/gitlab-runner:ubuntu-v$GITLAB_RUNNER_VERSION
+FROM gitlab/gitlab-runner:ubuntu-$GITLAB_RUNNER_VERSION
 
 LABEL author="Pavan Katakam"
 LABEL email="katakampavan.btech@gmail.com"
